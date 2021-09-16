@@ -13,7 +13,7 @@ module.exports = {
 	// 	freshChrome: "run",
 	// },
 	options: {
-		frequency: 60 * 23, // (in minutes), 23 hours
+		frequency: 60 , // (in minutes), 23 hours
 	},
 	urls: [
 		"https://www.andrewmkrug.com/",
