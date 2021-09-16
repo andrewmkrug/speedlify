@@ -1,6 +1,6 @@
 module.exports = {
-	name: "My Personal Sites", // optional, falls back to object key
-	description: "The default sites that get tested",
+	name: "My Business Sites", // optional, falls back to object key
+	description: "My business site",
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
 	// skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
@@ -16,8 +16,8 @@ module.exports = {
 		frequency: 60 * 23, // (in minutes), 23 hours
 	},
 	urls: [
-		"https://www.andrewmkrug.com/",
-		"https://recipes.andrewmkrug.com/",
-		"https://resume.andrewmkrug.com/",
+		"https://www.ginghamconsulting.com/",
+		"https://openqualityconf.com/",
+		"https://2020.openqualityconf.com/",
 	]
 };
