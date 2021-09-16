@@ -1,6 +1,6 @@
 module.exports = {
 	name: "My Personal Sites", // optional, falls back to object key
-	description: "The default sites that get tested",
+	description: "My Personal Sites",
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
 	// skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
