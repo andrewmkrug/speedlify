@@ -18,6 +18,6 @@ module.exports = {
 	urls: [
 		"https://www.ginghamconsulting.com/",
 		"https://openqualityconf.com/",
-		"https://2020.openqualityconf.com/",
+		//"https://2020.openqualityconf.com/",
 	]
 };
