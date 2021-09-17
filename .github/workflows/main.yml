@@ -12,4 +12,4 @@ jobs:
       - name: Curl request
         env:
           HOOK: ${{ secrets.HOOK }}
-        run: curl -X POST -d $HOOK
+        run: curl -X POST -d {} $HOOK
