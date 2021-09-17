@@ -1,7 +1,9 @@
 [build]
   publish = "_site"
   command = "npm run build-production"
-
+[build.environment]
+  NPM_FLAGS="--prefix=/dev/null"
+  
 [[plugins]]
 package = "./plugins/keep-data-cache"
 

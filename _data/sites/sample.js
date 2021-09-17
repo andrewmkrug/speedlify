@@ -18,7 +18,7 @@ module.exports = {
 	},
 	urls: [
 		"https://www.andrewmkrug.com/",
-		"https://recipes.andrewmkrug.com/",
-		"https://resume.andrewmkrug.com/"
+		"https://recipes.andrewmkrug.com/"
+		// "https://resume.andrewmkrug.com/"
 	]
 };
