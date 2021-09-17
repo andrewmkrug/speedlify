@@ -10,4 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Curl request
-        run: curl -X POST -d ${{ secrets.HOOK }} 
+        env:
+          HOOK: ${{ secrets.HOOK }}
+        run: curl -X POST -d $HOOK
