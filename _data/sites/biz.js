@@ -14,7 +14,7 @@ module.exports = {
 	// },
 	options: {
 		frequency: 60 , // (in minutes), 23 hours
-		freshChrome: "run",
+		freshChrome: "run"
 	},
 	urls: [
 		"https://ginghamconsulting.com/",
