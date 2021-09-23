@@ -7,11 +7,18 @@
 		<meta name="description" content="Benchmark web pages over time.">
 		<link rel="stylesheet" href="{{ '/style.css' | url }}">
 		<script>
-		document.documentElement.classList.add("js");
+			document
+				.documentElement
+				.classList
+				.add("js");
 		</script>
 	</head>
 	<body>
-		<h1 class="speedlify-hed"><a href="{{ '/' | url }}">speedlify</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
+		<h1 class="speedlify-hed">
+			<a href="{{ '/' | url }}">A/K</a>
+			{%- if vertical -%}:{{ vertical }}
+			{%- endif -%}
+		</h1>
 		<p class="speedlify-subhed">
 			Benchmark {{ sites[vertical].description or "web pages" }} over time.
 			{%- if sites[vertical].unordered %}

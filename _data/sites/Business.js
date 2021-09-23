@@ -1,6 +1,6 @@
 module.exports = {
-	name: "My Personal Sites", // optional, falls back to object key
-	description: "Personal Sites",
+	name: "my business sites", // optional, falls back to object key
+	description: "my business sites",
 	// skip if localhost
 	// skip if this is a new fork of the speedlify (not Zach’s)
 	// skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
@@ -17,8 +17,8 @@ module.exports = {
 		freshChrome: "run"
 	},
 	urls: [
-		"https://www.andrewmkrug.com/",
-		"https://recipes.andrewmkrug.com/"
-		// "https://resume.andrewmkrug.com/"
+		"https://ginghamconsulting.com/",
+		"https://openqualityconf.com/"
+		//"https://2020.openqualityconf.com/",
 	]
 };
